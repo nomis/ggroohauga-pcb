@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "L717HDE15PD1CH4F")(type "KiCad")(uri "${KIPRJMOD}/vendor/amphenol/L717HDE15PD1CH4F.kicad_sym")(options "")(descr ""))
+  (lib (name "L77HDE15SD1CH4R")(type "KiCad")(uri "${KIPRJMOD}/vendor/amphenol/L77HDE15SD1CH4R.kicad_sym")(options "")(descr ""))
+)
