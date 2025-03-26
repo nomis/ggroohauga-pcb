@@ -199,7 +199,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/047958d1-7be6-4064-8d63-cca79ac83afd")
 		(sheetname "Root")
-		(sheetfile "ggroohauga.kicad_sch")
+		(sheetfile "ggroohauga-amplifier.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.33 -1.33)
@@ -764,7 +764,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a1f34889-2e43-48e8-8092-6fdb2fff8a42")
 		(sheetname "Root")
-		(sheetfile "ggroohauga.kicad_sch")
+		(sheetfile "ggroohauga-amplifier.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.33 -1.33)
@@ -1329,7 +1329,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6b33c882-7214-4aa5-b225-0a9f596b7b56")
 		(sheetname "Root")
-		(sheetfile "ggroohauga.kicad_sch")
+		(sheetfile "ggroohauga-amplifier.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -1537,7 +1537,7 @@
 		(property ki_fp_filters "DSUB*Female*")
 		(path "/60791cfa-4238-49ee-bc9c-f6ae83ee49ee")
 		(sheetname "Root")
-		(sheetfile "ggroohauga.kicad_sch")
+		(sheetfile "ggroohauga-amplifier.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -15.405 11.43)
