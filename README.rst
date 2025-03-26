@@ -22,6 +22,13 @@ This project is made up of 3 KiCad projects, each of which share the same
 schematic file. These projects depend on support for symbolic links (which
 can be enabled in Developer Mode if you're using Windows).
 
+Supported ESP32-S3 Boards
+-------------------------
+
+* LOLIN WEMOS S3
+* Espressif ESP32-S3-DevKitC-1
+* Espressif ESP32-S3-DevKitM-1
+
 Related Documentation
 ---------------------
 
