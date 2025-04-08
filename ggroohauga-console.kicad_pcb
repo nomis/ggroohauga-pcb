@@ -1507,7 +1507,6 @@
 		(property "Reference" "S3L1"
 			(at 0 -2.77 90)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "fc027ebb-92db-4e26-a84a-a1b8dc3b13df")
 			(effects
 				(font
