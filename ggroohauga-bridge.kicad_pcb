@@ -2526,7 +2526,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "urn:oid:1.3.6.1.4.1.39777.1.3.1.3.1\nhttps://github.com/nomis/ggroohauga-pcb\n(bridge)\n"
+	(gr_text "urn:oid:1.3.6.1.4.1.39777.1.3.1.3.2\nhttps://github.com/nomis/ggroohauga-pcb\n(bridge)\n"
 		(at 131.064 66.04 0)
 		(layer "B.SilkS")
 		(uuid "6627236a-2a77-4ca4-a1e6-94eb22342042")
@@ -2776,14 +2776,6 @@
 	)
 	(segment
 		(start 112.014 54.61)
-		(end 111.76 54.61)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 4)
-		(uuid "535d415f-d5cb-45d9-8de3-2760419da52e")
-	)
-	(segment
-		(start 112.014 54.61)
 		(end 112.014 56.896)
 		(width 0.2)
 		(layer "F.Cu")
@@ -2951,14 +2943,6 @@
 		(uuid "df145827-23b9-4deb-b774-264d7c321046")
 	)
 	(segment
-		(start 62.84825 68.035)
-		(end 62.84825 67.96175)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 7)
-		(uuid "2cee9b00-549b-4db7-9829-663b1886ecbe")
-	)
-	(segment
 		(start 116.84 74.676)
 		(end 59.69 74.676)
 		(width 0.2)
@@ -2997,14 +2981,6 @@
 		(layer "B.Cu")
 		(net 7)
 		(uuid "cd8a80b6-a53d-451a-a576-c99d68ffb4da")
-	)
-	(segment
-		(start 117.094 77.47)
-		(end 116.84 77.47)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 7)
-		(uuid "d9c37305-2545-4767-bd55-3f671eac5604")
 	)
 	(segment
 		(start 103.632 70.612)
@@ -3149,22 +3125,6 @@
 		(layer "B.Cu")
 		(net 9)
 		(uuid "db37e893-bce5-4262-858a-dd7c971391ba")
-	)
-	(segment
-		(start 65.38825 71.47)
-		(end 65.12 71.47)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 10)
-		(uuid "6a057a9a-9ad5-420f-82a8-1ff63afa292b")
-	)
-	(segment
-		(start 65.12 71.47)
-		(end 64.77 71.12)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 10)
-		(uuid "fe25e55c-5005-470a-9dfb-d0989dd01ae0")
 	)
 	(segment
 		(start 99.568 61.468)
@@ -3429,22 +3389,6 @@
 		(layer "F.Cu")
 		(net 17)
 		(uuid "fc5416f9-eb61-4eae-af51-455fe977b6cd")
-	)
-	(segment
-		(start 146.4056 65.7374)
-		(end 146.4056 65.6336)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 17)
-		(uuid "1baa99bb-275d-46bb-9f4d-b93ad9d6dad9")
-	)
-	(segment
-		(start 146.4056 65.6336)
-		(end 146.304 65.532)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 17)
-		(uuid "2fed6028-281c-4a6d-9adb-9439f926aa1e")
 	)
 	(segment
 		(start 146.304 74.676)
@@ -3736,22 +3680,6 @@
 		(layer "B.Cu")
 		(net 22)
 		(uuid "dbf908ac-fbb7-4ec1-b3ac-09cad5d864dc")
-	)
-	(segment
-		(start 143.8656 66.9544)
-		(end 143.764 67.056)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 50)
-		(uuid "8d7648f2-8bc6-444e-9c98-43ee6c7183af")
-	)
-	(segment
-		(start 143.8656 66.8824)
-		(end 143.8656 66.9544)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 50)
-		(uuid "ab05e915-a86a-445d-9c92-b4949487706f")
 	)
 	(segment
 		(start 137.668 58.354)

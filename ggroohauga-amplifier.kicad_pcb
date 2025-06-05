@@ -1795,7 +1795,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "urn:oid:1.3.6.1.4.1.39777.1.3.1.1.1\nhttps://github.com/nomis/ggroohauga-pcb\n(amplifier)\n"
+	(gr_text "urn:oid:1.3.6.1.4.1.39777.1.3.1.1.2\nhttps://github.com/nomis/ggroohauga-pcb\n(amplifier)\n"
 		(at 131.064 66.04 0)
 		(layer "B.SilkS")
 		(uuid "6627236a-2a77-4ca4-a1e6-94eb22342042")
@@ -1939,14 +1939,6 @@
 		(uuid "26b1e166-1256-49b1-8319-bebaef96c303")
 	)
 	(segment
-		(start 112.014 54.61)
-		(end 111.76 54.61)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 4)
-		(uuid "535d415f-d5cb-45d9-8de3-2760419da52e")
-	)
-	(segment
 		(start 111.76 57.15)
 		(end 63.5 57.15)
 		(width 0.2)
@@ -2067,14 +2059,6 @@
 		(uuid "9054db30-47d2-4613-b4dd-71e1d0b79f77")
 	)
 	(segment
-		(start 62.84825 68.035)
-		(end 62.84825 67.96175)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 7)
-		(uuid "2cee9b00-549b-4db7-9829-663b1886ecbe")
-	)
-	(segment
 		(start 60.2408 68.0292)
 		(end 59.69 68.58)
 		(width 0.2)
@@ -2089,14 +2073,6 @@
 		(layer "B.Cu")
 		(net 7)
 		(uuid "882d8768-12f5-40d4-84aa-0bdfc5669ce0")
-	)
-	(segment
-		(start 116.84 77.47)
-		(end 117.094 77.47)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 7)
-		(uuid "8e1b992f-9713-424b-be32-bbe41d330b55")
 	)
 	(segment
 		(start 116.84 73.66)
@@ -2121,22 +2097,6 @@
 		(layer "B.Cu")
 		(net 7)
 		(uuid "ee01e8a4-cece-4bd8-b890-1713d312f7be")
-	)
-	(segment
-		(start 65.38825 71.47)
-		(end 65.12 71.47)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 10)
-		(uuid "6a057a9a-9ad5-420f-82a8-1ff63afa292b")
-	)
-	(segment
-		(start 65.12 71.47)
-		(end 64.77 71.12)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 10)
-		(uuid "fe25e55c-5005-470a-9dfb-d0989dd01ae0")
 	)
 	(segment
 		(start 75.66 65.024)
