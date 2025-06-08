@@ -22,5 +22,6 @@ build/%.bare-svg: \
 		-e 's:<!DOCTYPE [^>]\+>::' \
 		-e 's:<svg \([^>]*\) width="[^"]*"\([^>]*\)>:<svg \1\2>:' \
 		-e 's:<svg \([^>]*\) height="[^"]*"\([^>]*\)>:<svg \1\2>:' \
+		-e 's:<title>[^<]*</title>::' \
 		-e 's:<svg ::' \
 		< $< > $@
