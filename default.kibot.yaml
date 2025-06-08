@@ -1,0 +1,17 @@
+kibot:
+  version: 1
+
+global:
+  dir: build
+
+outputs:
+- name: render_top
+  type: pcbdraw
+  run_by_default: true
+  options:
+    bottom: false
+- name: render_bottom
+  type: pcbdraw
+  run_by_default: true
+  options:
+    bottom: true

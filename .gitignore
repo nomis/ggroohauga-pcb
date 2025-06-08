@@ -2,3 +2,4 @@
 /fp-info-cache
 /*.lck
 /plots/*.zip
+/build/

@@ -8,6 +8,15 @@ PCB for an alternative console and simulated amplifier interface for the
 ESP32-S3 microcontroller interacting with Logitech® Z906 Surround Sound
 Speakers.
 
+.. image:: ggroohauga-amplifier.svg
+   :alt: Front and back of amplifier PCB
+
+.. image:: ggroohauga-console.svg
+   :alt: Front and back of console PCB
+
+.. image:: ggroohauga-bridge.svg
+   :alt: Front and back of bridge PCB
+
 Purpose
 -------
 

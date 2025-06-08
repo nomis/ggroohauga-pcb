@@ -1,0 +1,7 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="173.2388mm" height="31.0134mm" viewBox="0 0 173.2388 31.0134">
+	<svg x="0" y="0" width="85.3694" height="31.0134" include(`build/ggroohauga-console-top.bare-svg')
+	<g transform="rotate(180 130.5541 15.5067)"><!-- x + width/2, height/2 -->
+		<svg x="87.8694" y="0" width="85.3694" height="31.0134" include(`build/ggroohauga-console-bottom.bare-svg')
+	</g>
+</svg>
