@@ -6,6 +6,7 @@
 # - https://www.gnu.org/software/sed/
 
 .DELETE_ON_ERROR:
+.SECONDARY:
 .PHONY: all
 
 all: ggroohauga-amplifier.svg ggroohauga-bridge.svg ggroohauga-console.svg
