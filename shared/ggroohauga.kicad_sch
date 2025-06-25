@@ -3783,20 +3783,8 @@
 		(uuid "09494a99-4c1f-4aba-97e7-407374c49c26")
 	)
 	(no_connect
-		(at 165.1 83.82)
-		(uuid "19e1d386-035e-4d08-b9b9-69b959dc1fdd")
-	)
-	(no_connect
 		(at 58.42 60.96)
 		(uuid "1a27358c-d2b0-4eed-a973-9bc34e291c0a")
-	)
-	(no_connect
-		(at 165.1 60.96)
-		(uuid "204a8fbd-9f26-436d-9017-dfb65be5a00b")
-	)
-	(no_connect
-		(at 190.5 60.96)
-		(uuid "2380aeef-38db-41c1-b166-f55408107144")
 	)
 	(no_connect
 		(at 58.42 132.08)
@@ -3831,16 +3819,8 @@
 		(uuid "5494dca9-022b-40db-824f-a4c8572a72ce")
 	)
 	(no_connect
-		(at 165.1 66.04)
-		(uuid "5c9f08f7-35b4-40a5-b73a-0fb5d1770bda")
-	)
-	(no_connect
 		(at 58.42 127)
 		(uuid "66fd5d9e-5ad0-4055-a204-0ebb62e0feca")
-	)
-	(no_connect
-		(at 190.5 73.66)
-		(uuid "6ae12134-f9af-4562-b15f-838ba551bf4e")
 	)
 	(no_connect
 		(at 73.66 48.26)
@@ -3871,10 +3851,6 @@
 		(uuid "91f8a66e-cccf-462c-8960-525c4b52c03f")
 	)
 	(no_connect
-		(at 165.1 58.42)
-		(uuid "9d617f6b-43c7-4e5b-a15e-7666072145ed")
-	)
-	(no_connect
 		(at 190.5 68.58)
 		(uuid "9ed4b477-464d-4c53-b7ee-e339d6087a4f")
 	)
@@ -3891,28 +3867,12 @@
 		(uuid "b037fc33-7483-41fb-b296-25696f0a699c")
 	)
 	(no_connect
-		(at 190.5 76.2)
-		(uuid "baddc009-95df-4188-8405-7606c02160e1")
-	)
-	(no_connect
 		(at 165.1 88.9)
 		(uuid "cc4f3275-558d-4f78-850d-3e42cbb963d8")
 	)
 	(no_connect
-		(at 190.5 55.88)
-		(uuid "d3a9e7d5-e9ef-47bf-bc45-5c488f06b86f")
-	)
-	(no_connect
-		(at 165.1 81.28)
-		(uuid "d412920e-e52c-40f7-8c6b-fd41b2528030")
-	)
-	(no_connect
 		(at 165.1 86.36)
 		(uuid "e09087da-17ea-49c4-936f-083db20fb7ac")
-	)
-	(no_connect
-		(at 165.1 55.88)
-		(uuid "e0eb0be0-0e31-4e9c-a02b-652dd8ca8874")
 	)
 	(no_connect
 		(at 165.1 43.18)
@@ -5232,6 +5192,28 @@
 		)
 		(uuid "f718c603-9ea2-444d-acb2-8d763bf7522a")
 	)
+	(global_label "GPIO_L18_C18_M9"
+		(shape passive)
+		(at 165.1 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "285ea6d8-c95e-497f-b792-12ab86297f1d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.051 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "AUDIO_HEADPHONES_R"
 		(shape input)
 		(at 53.34 63.5 180)
@@ -5474,6 +5456,28 @@
 			)
 		)
 	)
+	(global_label "GPIO_L41_C41_M42"
+		(shape passive)
+		(at 190.5 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "af254fdd-bccc-4845-b960-3c06939b681b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.7585 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "AUDIO_HEADPHONES_R"
 		(shape input)
 		(at 110.49 184.15 0)
@@ -5492,6 +5496,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_L12_C12_M16"
+		(shape passive)
+		(at 165.1 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b86c32ad-3db5-4902-a229-b33ecfeb2392")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.8415 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CPIO_L7_C7_M5"
+		(shape passive)
+		(at 165.1 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bacbf197-dcdd-42f1-801e-1a853388a6f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.47 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5540,6 +5588,94 @@
 			)
 		)
 	)
+	(global_label "GPIO_L11_C11_M15"
+		(shape passive)
+		(at 165.1 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bfe43861-dc9c-463a-b661-33ffabfe3cc6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.8415 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_L16_C16_M7"
+		(shape passive)
+		(at 165.1 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c13edc5d-424c-45f2-84fa-19957ad6f31f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.051 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_L21_C21_M21"
+		(shape passive)
+		(at 190.5 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c3667165-8c26-437c-93a3-845a9e742b25")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.7585 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_L39_C39_M40"
+		(shape passive)
+		(at 190.5 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce8871fd-4076-4abd-8f8c-e7df0616b4c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.7585 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "AUDIO_AUX_R"
 		(shape output)
 		(at 53.34 48.26 180)
@@ -5562,6 +5698,28 @@
 			)
 		)
 	)
+	(global_label "GPIO_L15_C15_M6"
+		(shape passive)
+		(at 165.1 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d9bd4cac-ba86-4a03-aba7-dc3724b668ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.051 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "AUDIO_AUX_R"
 		(shape input)
 		(at 53.34 129.54 180)
@@ -5575,6 +5733,28 @@
 		(uuid "e9d6011b-ecec-468b-a71e-289a50b9d6b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 68.7834 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_L47_C47_M35"
+		(shape passive)
+		(at 190.5 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f623ed7b-7b65-4155-bdc3-a9a26f0d4833")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.7585 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
