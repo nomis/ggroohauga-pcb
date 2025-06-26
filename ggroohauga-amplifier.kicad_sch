@@ -121,43 +121,33 @@
 		(at 58.42 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "859d07e8-c9e4-4dfb-b7fc-530cc4e6e2b9")
+		(uuid "1d2c0bac-72b8-4352-a873-7c910ba2b100")
 	)
 	(junction
 		(at 58.42 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "98dbd30c-271f-49ad-9493-4cc2198df5f5")
+		(uuid "aab7324a-b4ae-402c-9d00-6cb5d7162b93")
 	)
 	(wire
 		(pts
-			(xy 58.42 21.59) (xy 58.42 24.13)
+			(xy 50.8 26.67) (xy 58.42 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "18fb5318-f1d3-4504-98b3-ff5cf69252b9")
+		(uuid "2996bba1-fb6b-4d92-8325-15a8b05d35ae")
 	)
 	(wire
 		(pts
-			(xy 38.1 21.59) (xy 58.42 21.59)
+			(xy 50.8 24.13) (xy 58.42 24.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "367ec386-9a37-4dc9-bfb7-0f5ba568509d")
-	)
-	(wire
-		(pts
-			(xy 58.42 24.13) (xy 58.42 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61a36751-d327-46be-9e51-2fe1ca6d9c6c")
+		(uuid "3081e26c-a482-4508-831a-2df17c4c0fe8")
 	)
 	(wire
 		(pts
@@ -167,27 +157,37 @@
 			(width 0)
 			(type default)
 		)
+		(uuid "5c808fbb-03fc-416f-976b-b4b33518252c")
+	)
+	(wire
+		(pts
+			(xy 58.42 21.59) (xy 58.42 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
 		(uuid "7f6b74e2-51d0-4d6d-bb09-b8cd9ab51a63")
 	)
 	(wire
 		(pts
-			(xy 38.1 26.67) (xy 58.42 26.67)
+			(xy 58.42 24.13) (xy 58.42 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "922e3404-5ef2-48fb-8793-da7b5d07c312")
+		(uuid "8edfb542-0836-4ebd-ae20-0db5aff09425")
 	)
 	(wire
 		(pts
-			(xy 38.1 24.13) (xy 58.42 24.13)
+			(xy 50.8 21.59) (xy 58.42 21.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ccc7ecbf-f628-45ef-9929-2fb35be129a6")
+		(uuid "ed64dce8-76c9-4526-83b4-8615817b7e99")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -257,7 +257,7 @@
 	)
 	(sheet
 		(at 17.78 19.05)
-		(size 20.32 11.43)
+		(size 33.02 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -289,8 +289,8 @@
 				(justify left top)
 			)
 		)
-		(pin "GPIO_L7_C7_M5" passive
-			(at 38.1 21.59 0)
+		(pin "GPIO_L7_C7_M5{slash}BOARD_ID_2" passive
+			(at 50.8 21.59 0)
 			(uuid "45f8ee23-1326-4216-868c-6ce9dc5b38c6")
 			(effects
 				(font
@@ -299,8 +299,8 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO_L15_C15_M6" passive
-			(at 38.1 24.13 0)
+		(pin "GPIO_L15_C15_M6{slash}BOARD_ID_1" passive
+			(at 50.8 24.13 0)
 			(uuid "1862b0af-148f-4e93-9fb6-b6c2aa249dbd")
 			(effects
 				(font
@@ -309,8 +309,8 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO_L16_C16_M7" passive
-			(at 38.1 26.67 0)
+		(pin "GPIO_L16_C16_M7{slash}BOARD_ID_0" passive
+			(at 50.8 26.67 0)
 			(uuid "61ef4aba-fdd2-4060-b2e1-973f42c8dc31")
 			(effects
 				(font

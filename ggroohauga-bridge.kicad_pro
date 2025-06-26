@@ -502,6 +502,10 @@
       {
         "netclass": "Default",
         "pattern": "TEST"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GPIO_L41_C41_M42"
       }
     ]
   },
