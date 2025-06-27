@@ -27,7 +27,7 @@ control an amplifier with the original console).
 Usage
 -----
 
-This project is made up of 3 KiCad projects, each of which share the same
+This project is made up of 3 KiCad projects, each of which share the same common
 schematic file. These projects depend on support for symbolic links (which
 can be enabled in Developer Mode if you're using Windows).
 
