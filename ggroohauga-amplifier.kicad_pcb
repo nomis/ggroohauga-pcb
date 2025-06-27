@@ -596,8 +596,9 @@
 			)
 		)
 		(property "Value" "Headphones"
-			(at 0 -10 90)
-			(layer "F.Fab")
+			(at 7 -2.5 180)
+			(unlocked yes)
+			(layer "F.SilkS")
 			(uuid "17e098ab-bf61-49a6-8e38-fa231ac847f4")
 			(effects
 				(font
@@ -3244,8 +3245,9 @@
 			)
 		)
 		(property "Value" "Aux In"
-			(at 0 -10 90)
-			(layer "F.Fab")
+			(at -7 -2.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
 			(uuid "640c425b-7793-4995-bf66-dbeaa9f8580e")
 			(effects
 				(font
