@@ -72,9 +72,8 @@ Supported ESP32-S3 Boards
 Amplifier Signals GPIOs
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Hold all other amplifier GPIOs in a high impedance state until Amplifier
-Power In becomes active (high), to avoid back-powering the amplifier
-components through the UART.
+Amplifier Power In should only be pulled down, to avoid back-powering the
+amplifier microcontroller when mains power is off.
 
 +------------------------+-------+---------+-----------+-----------+----------+----------+
 | Name                   |  Pin  |  LOLIN  |  DevKitC  |  DevKitM  |  Socket  |  Active  |
