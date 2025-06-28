@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "40d11306-2494-4bd8-b540-c25b2be9aaac")
-	(paper "A4")
+	(paper "User" 50.8 25.4)
 	(lib_symbols
 		(symbol "power:GND"
 			(power)
@@ -109,7 +109,7 @@
 	)
 	(text "000"
 		(exclude_from_sim no)
-		(at 58.42 19.05 0)
+		(at 41.91 5.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -118,20 +118,20 @@
 		(uuid "29ef153e-eb19-419d-95cc-3936fe00e840")
 	)
 	(junction
-		(at 58.42 24.13)
+		(at 41.91 10.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d2c0bac-72b8-4352-a873-7c910ba2b100")
 	)
 	(junction
-		(at 58.42 26.67)
+		(at 41.91 12.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aab7324a-b4ae-402c-9d00-6cb5d7162b93")
 	)
 	(wire
 		(pts
-			(xy 50.8 26.67) (xy 58.42 26.67)
+			(xy 34.29 12.7) (xy 41.91 12.7)
 		)
 		(stroke
 			(width 0)
@@ -141,7 +141,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 24.13) (xy 58.42 24.13)
+			(xy 34.29 10.16) (xy 41.91 10.16)
 		)
 		(stroke
 			(width 0)
@@ -151,7 +151,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 26.67) (xy 58.42 31.75)
+			(xy 41.91 12.7) (xy 41.91 17.78)
 		)
 		(stroke
 			(width 0)
@@ -161,7 +161,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 21.59) (xy 58.42 24.13)
+			(xy 41.91 7.62) (xy 41.91 10.16)
 		)
 		(stroke
 			(width 0)
@@ -171,7 +171,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 24.13) (xy 58.42 26.67)
+			(xy 41.91 10.16) (xy 41.91 12.7)
 		)
 		(stroke
 			(width 0)
@@ -181,7 +181,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 21.59) (xy 58.42 21.59)
+			(xy 34.29 7.62) (xy 41.91 7.62)
 		)
 		(stroke
 			(width 0)
@@ -191,7 +191,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 31.75 0)
+		(at 41.91 17.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -200,7 +200,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ff1d249-ad19-4c46-9fe0-674fd85e7796")
 		(property "Reference" "#PWR011"
-			(at 58.42 38.1 0)
+			(at 41.91 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -209,7 +209,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 36.83 0)
+			(at 41.91 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -217,7 +217,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 31.75 0)
+			(at 41.91 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -226,7 +226,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 31.75 0)
+			(at 41.91 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -235,7 +235,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 31.75 0)
+			(at 41.91 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -256,7 +256,7 @@
 		)
 	)
 	(sheet
-		(at 17.78 19.05)
+		(at 1.27 5.08)
 		(size 33.02 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -272,7 +272,7 @@
 		)
 		(uuid "d8f68aac-e4b3-42cf-adb2-95c1a8c35ecf")
 		(property "Sheetname" "Common"
-			(at 17.78 18.3384 0)
+			(at 1.27 4.3684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -281,16 +281,17 @@
 			)
 		)
 		(property "Sheetfile" "ggroohauga-shared.kicad_sch"
-			(at 17.78 31.0646 0)
+			(at 1.27 17.0946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "GPIO_L7_C7_M5{slash}BOARD_ID_2" passive
-			(at 50.8 21.59 0)
+			(at 34.29 7.62 0)
 			(uuid "45f8ee23-1326-4216-868c-6ce9dc5b38c6")
 			(effects
 				(font
@@ -300,7 +301,7 @@
 			)
 		)
 		(pin "GPIO_L15_C15_M6{slash}BOARD_ID_1" passive
-			(at 50.8 24.13 0)
+			(at 34.29 10.16 0)
 			(uuid "1862b0af-148f-4e93-9fb6-b6c2aa249dbd")
 			(effects
 				(font
@@ -310,7 +311,7 @@
 			)
 		)
 		(pin "GPIO_L16_C16_M7{slash}BOARD_ID_0" passive
-			(at 50.8 26.67 0)
+			(at 34.29 12.7 0)
 			(uuid "61ef4aba-fdd2-4060-b2e1-973f42c8dc31")
 			(effects
 				(font
@@ -333,4 +334,15 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "blank.kicad_wks")
+			(type worksheet)
+			(data |KLUv/SDtXQQA8scaG4C3DoCGkTkm9L7EPoSChJHUB7MwDOuQkLGoDoghtvR/D5h+5GB3miQfDpf3
+				hVWYoc0l5CM3K1lhRtO0CZ6P2F/nIMbwO10TqKe8n+M+hVHJ+6Gv3GMdxAKqCihckWTz9D2sg2bS
+				vAgJnKwLIBAigXx4lNqNQ8JeqiVgUcUP8WDOJZ24xgeCAg==|
+			)
+			(checksum "00BCE598336E5951A5D0C187D2E96FE2")
+		)
+	)
 )

@@ -15,3 +15,8 @@ outputs:
   run_by_default: true
   options:
     bottom: true
+- name: schematic
+  type: svg_sch_print
+  run_by_default: true
+  options:
+    frame: false

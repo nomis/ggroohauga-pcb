@@ -8,15 +8,6 @@ PCB for an alternative console and simulated amplifier interface for the
 ESP32-S3 microcontroller interacting with Logitech® Z906 Surround Sound
 Speakers.
 
-.. image:: ggroohauga-amplifier.svg
-   :alt: Front and back of amplifier PCB
-
-.. image:: ggroohauga-console.svg
-   :alt: Front and back of console PCB
-
-.. image:: ggroohauga-bridge.svg
-   :alt: Front and back of bridge PCB
-
 Purpose
 -------
 
@@ -30,6 +21,49 @@ Usage
 This project is made up of 3 KiCad projects, each of which share the same common
 schematic file. These projects depend on support for symbolic links (which
 can be enabled in Developer Mode if you're using Windows).
+
+Schematic
+---------
+
+Common schematic shared by all PCBs. Components with an "A-" reference are for
+the amplifier/bridge PCBs and components with a "C-" reference are for the
+console/bridge PCBs.
+
+.. image:: render/ggroohauga-shared-sch.svg
+   :alt: Common schematic
+
+Amplifier PCB
+~~~~~~~~~~~~~
+
+For connecting to an amplifier on its own.
+
+.. image:: render/ggroohauga-amplifier-pcb.svg
+   :alt: Front and back of amplifier PCB
+
+.. image:: render/ggroohauga-amplifier-sch.svg
+   :alt: Amplifier-specific schematic
+
+Console PCB
+~~~~~~~~~~~
+
+For connecting to a console on its own.
+
+.. image:: render/ggroohauga-console-pcb.svg
+   :alt: Front and back of console PCB
+
+.. image:: render/ggroohauga-console-sch.svg
+   :alt: Console-specific schematic
+
+Bridge PCB
+~~~~~~~~~~
+
+For connecting between an amplifier and a console.
+
+.. image:: render/ggroohauga-bridge-pcb.svg
+   :alt: Front and back of bridge PCB
+
+.. image:: render/ggroohauga-bridge-sch.svg
+   :alt: Bridge-specific schematic
 
 Components
 ----------

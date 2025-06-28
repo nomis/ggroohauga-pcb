@@ -9,13 +9,30 @@
 .SECONDARY:
 .PHONY: all
 
-all: ggroohauga-amplifier.svg ggroohauga-bridge.svg ggroohauga-console.svg
+all: \
+	render/ggroohauga-amplifier-pcb.svg \
+	render/ggroohauga-amplifier-sch.svg \
+	render/ggroohauga-bridge-pcb.svg \
+	render/ggroohauga-bridge-sch.svg \
+	render/ggroohauga-console-pcb.svg \
+	render/ggroohauga-console-sch.svg \
+	render/ggroohauga-shared-sch.svg
 
-%.svg: %.svg.in build/%-top.bare-svg build/%-bottom.bare-svg Makefile
+render/ggroohauga-shared-sch.svg: build/ggroohauga-bridge-Common.svg Makefile
+	sed \
+		-e 's:<title>[^<]*</title>::' \
+		< $< > $@
+
+render/%-sch.svg: build/%-schematic.svg Makefile
+	sed \
+		-e 's:<title>[^<]*</title>::' \
+		< $< > $@
+
+render/%-pcb.svg: %-pcb.svg.in build/%-top.bare-svg build/%-bottom.bare-svg Makefile
 	m4 < $< > $@
 
-build/%-top.svg build/%-bottom.svg: %.kicad_pcb default.kibot.yaml
-	kibot -e $<
+build/%-top.svg build/%-bottom.svg build/%-schematic.svg build/%-Common.svg: %.kicad_sch %.kicad_pcb default.kibot.yaml
+	kibot -e $< -b $(word 2,$^)
 
 build/%-top.rewrite-id-svg: build/%-top.svg Makefile
 	sed -e 's: id=": id="t-:g' -e 's:url(#:url(#t-:g' < $< > $@
