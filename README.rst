@@ -36,7 +36,7 @@ DE-15 socket) reference are for the amplifier/console PCBs.
 Amplifier PCB
 ~~~~~~~~~~~~~
 
-For connecting to an amplifier on its own.
+Connect to an amplifier on its own.
 
 .. image:: render/ggroohauga-amplifier-pcb.svg
    :alt: Front and back of amplifier PCB
@@ -47,7 +47,7 @@ For connecting to an amplifier on its own.
 Console PCB
 ~~~~~~~~~~~
 
-For connecting to a console on its own.
+Connect to a console on its own.
 
 .. image:: render/ggroohauga-console-pcb.svg
    :alt: Front and back of console PCB
@@ -58,7 +58,7 @@ For connecting to a console on its own.
 Bridge PCB
 ~~~~~~~~~~
 
-For connecting between an amplifier and a console.
+Connect between an amplifier and a console.
 
 .. image:: render/ggroohauga-bridge-pcb.svg
    :alt: Front and back of bridge PCB
@@ -156,6 +156,32 @@ otherwise it will report a communication error.
 +------------------------+-------+---------+-----------+-----------+----------+----------+
 | GND                    |    6  |         |           |           |   R  1   |          |
 +------------------------+-------+---------+-----------+-----------+----------+----------+
+
+Board ID GPIOs
+~~~~~~~~~~~~~~
+
+To identify which type of PCB the ESP32-S3 has been connected to, read the
+big-endian value of these GPIOs.
+
++-------+---------+-----------+-----------+
+|  Bit  |  LOLIN  |  DevKitC  |  DevKitM  |
++=======+=========+===========+===========+
+|   2   |    7    |     7     |     5     |
++-------+---------+-----------+-----------+
+|   1   |   15    |    15     |     6     |
++-------+---------+-----------+-----------+
+|   0   |   16    |    16     |     7     |
++-------+---------+-----------+-----------+
+
++---------+-----------+
+| Value   | PCB       |
++=========+===========+
+| 000 (0) | Amplifier |
++---------+-----------+
+| 001 (1) | Bridge    |
++---------+-----------+
+| 010 (2) | Console   |
++---------+-----------+
 
 Related Documentation
 ---------------------
