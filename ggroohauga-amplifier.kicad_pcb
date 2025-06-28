@@ -783,7 +783,7 @@
 		(at 144.499848 59.1058 90)
 		(descr "TRS 3.5mm, horizontal, through-hole, https://www.cuidevices.com/product/resource/pdf/sj1-352xn.pdf")
 		(tags "TRS audio jack stereo horizontal")
-		(property "Reference" "A-J3"
+		(property "Reference" "S-J2"
 			(at 0 -8.8 90)
 			(layer "F.SilkS")
 			(uuid "ebe2c159-892f-40d5-a071-057a4d5e33af")
@@ -3631,7 +3631,7 @@
 		(at 144.499848 73.01992 90)
 		(descr "TRS 3.5mm, horizontal, through-hole, https://www.cuidevices.com/product/resource/pdf/sj1-352xn.pdf")
 		(tags "TRS audio jack stereo horizontal")
-		(property "Reference" "A-J2"
+		(property "Reference" "S-J1"
 			(at 0 -8.8 90)
 			(layer "F.SilkS")
 			(uuid "a823dd40-2ec5-42c5-8d0b-2d2c9b7f76f2")

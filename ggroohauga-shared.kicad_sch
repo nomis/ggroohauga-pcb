@@ -6859,7 +6859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cf5c794-3a7c-4c9b-90e7-db44590a856a")
-		(property "Reference" "A-J2"
+		(property "Reference" "S-J1"
 			(at 33.655 172.72 0)
 			(effects
 				(font
@@ -6914,7 +6914,7 @@
 		(instances
 			(project "ggroohauga-amplifier"
 				(path "/40d11306-2494-4bd8-b540-c25b2be9aaac/d8f68aac-e4b3-42cf-adb2-95c1a8c35ecf"
-					(reference "A-J2")
+					(reference "S-J1")
 					(unit 1)
 				)
 			)
@@ -6997,7 +6997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "737a256e-7f2c-438a-98df-15fb3ed1f712")
-		(property "Reference" "A-J3"
+		(property "Reference" "S-J2"
 			(at 76.835 172.72 0)
 			(effects
 				(font
@@ -7052,7 +7052,7 @@
 		(instances
 			(project "ggroohauga-amplifier"
 				(path "/40d11306-2494-4bd8-b540-c25b2be9aaac/d8f68aac-e4b3-42cf-adb2-95c1a8c35ecf"
-					(reference "A-J3")
+					(reference "S-J2")
 					(unit 1)
 				)
 			)

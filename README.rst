@@ -4,7 +4,7 @@ Logitech® Z906 Surround Sound Speakers
 Overview
 --------
 
-PCB for an alternative console and simulated amplifier interface for the
+PCBs for an alternative console and simulated amplifier interface for the
 ESP32-S3 microcontroller interacting with Logitech® Z906 Surround Sound
 Speakers.
 
@@ -25,9 +25,10 @@ can be enabled in Developer Mode if you're using Windows).
 Schematic
 ---------
 
-Common schematic shared by all PCBs. Components with an "A-" reference are for
-the amplifier/bridge PCBs and components with a "C-" reference are for the
-console/bridge PCBs.
+Common schematic shared by all PCBs. Components with an "A-" (amplifier)
+reference are for the amplifier/bridge PCBs, components with a "C-" (console)
+reference are for the console/bridge PCBs and components with an "S-" (single
+DE-15 socket) reference are for the amplifier/console PCBs.
 
 .. image:: render/ggroohauga-shared-sch.svg
    :alt: Common schematic
@@ -68,37 +69,37 @@ For connecting between an amplifier and a console.
 Components
 ----------
 
-+-------+--------------------------------------------------------+-------------------+
-| Ref   | Name                                                   | PCB               |
-+=======+========================================================+===================+
-|       | ESP32-S3 Development Board                             | all               |
-+-------+--------------------------------------------------------+-------------------+
-| S3L1  | 1x20 Pin Socket, Through Hole (2.54mm)                 | all               |
-+-------+--------------------------------------------------------+-------------------+
-| S3R1  | 1x20 Pin Socket, Through Hole (2.54mm)                 | all               |
-+-------+--------------------------------------------------------+-------------------+
-| A-C1  | 0.1µF Capacitor, SMD 0805 (Metric 2012)                | amplifier, bridge |
-+-------+--------------------------------------------------------+-------------------+
-| A-C2  | 0.1µF Capacitor, SMD 0805 (Metric 2012)                | amplifier, bridge |
-+-------+--------------------------------------------------------+-------------------+
-| A-J1  | Amphenol L77HDE15SD1CH4R DE-15 socket                  | amplifier, bridge |
-+-------+--------------------------------------------------------+-------------------+
-| A-J2  | Same Sky SJ1-3523N 3.5mm Audio Jack                    | amplifier         |
-+-------+--------------------------------------------------------+-------------------+
-| A-J3  | Same Sky SJ1-3523N 3.5mm Audio Jack                    | amplifier         |
-+-------+--------------------------------------------------------+-------------------+
-| A-R1  | 1kΩ Resistor, SMD 0805 (Metric 2012)                   | amplifier, bridge |
-+-------+--------------------------------------------------------+-------------------+
-| A-R2  | 10kΩ Resistor, SMD 0805 (Metric 2012)                  | amplifier, bridge |
-+-------+--------------------------------------------------------+-------------------+
-| A-R3  | 10kΩ Resistor, SMD 0805 (Metric 2012)                  | amplifier, bridge |
-+-------+--------------------------------------------------------+-------------------+
-| A-U1  | Texas Instruments ISO6742DWR Digital Isolator, SOIC-16 | amplifier, bridge |
-+-------+--------------------------------------------------------+-------------------+
-| C-J1  | Amphenol L717HDE15PD1CH4F DE-15 plug                   | console, bridge   |
-+-------+--------------------------------------------------------+-------------------+
-| C-Q1  | Diodes DMP2004K P-Channel MOSFET, SOT-23               | console, bridge   |
-+-------+--------------------------------------------------------+-------------------+
++-------+--------------------------------------------------------+--------------------+
+| Ref   | Name                                                   | PCB                |
++=======+========================================================+====================+
+|       | ESP32-S3 Development Board                             | all                |
++-------+--------------------------------------------------------+--------------------+
+| S3L1  | 1x20 Pin Socket, Through Hole (2.54mm)                 | all                |
++-------+--------------------------------------------------------+--------------------+
+| S3R1  | 1x20 Pin Socket, Through Hole (2.54mm)                 | all                |
++-------+--------------------------------------------------------+--------------------+
+| A-C1  | 0.1µF Capacitor, SMD 0805 (Metric 2012)                | amplifier, bridge  |
++-------+--------------------------------------------------------+--------------------+
+| A-C2  | 0.1µF Capacitor, SMD 0805 (Metric 2012)                | amplifier, bridge  |
++-------+--------------------------------------------------------+--------------------+
+| A-J1  | Amphenol L77HDE15SD1CH4R DE-15 socket                  | amplifier, bridge  |
++-------+--------------------------------------------------------+--------------------+
+| A-R1  | 1kΩ Resistor, SMD 0805 (Metric 2012)                   | amplifier, bridge  |
++-------+--------------------------------------------------------+--------------------+
+| A-R2  | 10kΩ Resistor, SMD 0805 (Metric 2012)                  | amplifier, bridge  |
++-------+--------------------------------------------------------+--------------------+
+| A-R3  | 10kΩ Resistor, SMD 0805 (Metric 2012)                  | amplifier, bridge  |
++-------+--------------------------------------------------------+--------------------+
+| A-U1  | Texas Instruments ISO6742DWR Digital Isolator, SOIC-16 | amplifier, bridge  |
++-------+--------------------------------------------------------+--------------------+
+| C-J1  | Amphenol L717HDE15PD1CH4F DE-15 plug                   | console, bridge    |
++-------+--------------------------------------------------------+--------------------+
+| C-Q1  | Diodes DMP2004K P-Channel MOSFET, SOT-23               | console, bridge    |
++-------+--------------------------------------------------------+--------------------+
+| S-J1  | Same Sky SJ1-3523N 3.5mm Audio Jack                    | amplifier, console |
++-------+--------------------------------------------------------+--------------------+
+| S-J2  | Same Sky SJ1-3523N 3.5mm Audio Jack                    | amplifier, console |
++-------+--------------------------------------------------------+--------------------+
 
 Supported ESP32-S3 Boards
 -------------------------
@@ -135,7 +136,7 @@ amplifier microcontroller when mains power is off.
 Console Signals GPIOs
 ~~~~~~~~~~~~~~~~~~~~~
 
-Prepare all other GPIOs and UART before applying console power,
+Prepare all other GPIOs and UARTs before applying console power,
 otherwise it will report a communication error.
 
 +------------------------+-------+---------+-----------+-----------+----------+----------+
