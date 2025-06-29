@@ -1,7 +1,5 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="192.5508mm" height="31.0254mm" viewBox="0 0 192.5508 31.0254">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="199.5508mm" height="31.0254mm" viewBox="0 0 199.5508 31.0254">
 	<svg x="0" y="0" width="95.0254" height="31.0254" include(`build/ggroohauga-amplifier-top.bare-svg')
-	<g transform="rotate(180 145.0381 15.5127)"><!-- x + width/2, height/2 -->
-		<svg x="97.5254" y="0" width="95.0254" height="31.0254" include(`build/ggroohauga-amplifier-bottom.bare-svg')
-	</g>
+	<svg x="104.5254" y="0" width="95.0254" height="31.0254" include(`build/ggroohauga-amplifier-bottom.bare-svg')
 </svg>
