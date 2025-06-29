@@ -36,7 +36,8 @@ DE-15 socket) reference are for the amplifier/console PCBs.
 Amplifier PCB
 ~~~~~~~~~~~~~
 
-Connect to an amplifier on its own.
+Connect to an amplifier on its own to control the amplifier and access the Aux
+Input and Headphones audio through `3.5mm TRS sockets <https://en.wikipedia.org/wiki/Phone_connector_(audio)>`_.
 
 .. image:: render/ggroohauga-amplifier-pcb.svg
    :alt: Front and back of amplifier PCB
@@ -47,7 +48,8 @@ Connect to an amplifier on its own.
 Console PCB
 ~~~~~~~~~~~
 
-Connect to a console on its own.
+Connect to a console on its own to control the console and access the Aux Input
+and Headphones audio through `3.5mm TRS sockets <https://en.wikipedia.org/wiki/Phone_connector_(audio)>`_.
 
 .. image:: render/ggroohauga-console-pcb.svg
    :alt: Front and back of console PCB
@@ -58,7 +60,8 @@ Connect to a console on its own.
 Bridge PCB
 ~~~~~~~~~~
 
-Connect between an amplifier and a console.
+Connect between an amplifier and a console to control both devices
+independently.
 
 .. image:: render/ggroohauga-bridge-pcb.svg
    :alt: Front and back of bridge PCB

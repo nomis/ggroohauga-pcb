@@ -3642,7 +3642,7 @@
 				)
 			)
 		)
-		(property "Value" "Aux In"
+		(property "Value" "Aux Input"
 			(at -7 -2.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")

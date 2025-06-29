@@ -6867,7 +6867,7 @@
 				)
 			)
 		)
-		(property "Value" "Aux In"
+		(property "Value" "Aux Input"
 			(at 33.655 175.26 0)
 			(effects
 				(font
