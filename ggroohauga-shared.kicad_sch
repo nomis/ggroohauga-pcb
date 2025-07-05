@@ -3845,6 +3845,10 @@
 		(uuid "5b421eaa-2422-4457-a7cb-e138aae004ed")
 	)
 	(no_connect
+		(at 187.96 71.12)
+		(uuid "5b88e17c-2162-49f6-997a-69c35f8d426f")
+	)
+	(no_connect
 		(at 187.96 50.8)
 		(uuid "6622fc7d-32db-4e6c-82cd-eb896774b82a")
 	)
@@ -3865,6 +3869,10 @@
 		(uuid "7ca3f74a-e1d0-42c5-af95-085c7a8dd7c7")
 	)
 	(no_connect
+		(at 187.96 58.42)
+		(uuid "7cfaa573-d88a-4047-a185-7ed7bf0656b8")
+	)
+	(no_connect
 		(at 55.88 43.18)
 		(uuid "9650a406-2b83-4eb5-aa92-a367cd75081f")
 	)
@@ -3883,6 +3891,10 @@
 	(no_connect
 		(at 187.96 63.5)
 		(uuid "a0ff9e24-04bb-475e-aa06-9b1a576b792f")
+	)
+	(no_connect
+		(at 187.96 68.58)
+		(uuid "b78f04e3-18b0-4d4c-8c3a-96c5957092b1")
 	)
 	(no_connect
 		(at 55.88 114.3)
@@ -3999,6 +4011,16 @@
 			(type default)
 		)
 		(uuid "16a12c09-8552-4fd6-93d6-c10404c24a6c")
+	)
+	(wire
+		(pts
+			(xy 187.96 73.66) (xy 251.46 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "177df13d-b4a9-4ec1-ae7f-d1e28a6a4cd8")
 	)
 	(wire
 		(pts
@@ -4142,16 +4164,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 73.66) (xy 190.5 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e9fe28f-d454-4e9a-ae9c-1c8812bbf536")
-	)
-	(wire
-		(pts
 			(xy 50.8 49.53) (xy 53.34 49.53)
 		)
 		(stroke
@@ -4262,6 +4274,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 64.77) (xy 196.85 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44ec9b30-0513-4e6d-9fd5-ff92bed83201")
+	)
+	(wire
+		(pts
 			(xy 17.78 53.34) (xy 55.88 53.34)
 		)
 		(stroke
@@ -4282,13 +4304,13 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 71.12) (xy 190.5 71.12)
+			(xy 196.85 76.2) (xy 187.96 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4add3818-74be-4c14-b86a-7664dcd0bfc2")
+		(uuid "50b16304-c65e-4b37-ab63-cea616d9f555")
 	)
 	(wire
 		(pts
@@ -4372,7 +4394,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 68.58) (xy 245.11 68.58)
+			(xy 187.96 53.34) (xy 247.65 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4492,7 +4514,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 76.2) (xy 251.46 121.92)
+			(xy 251.46 73.66) (xy 251.46 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4552,13 +4574,13 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 53.34) (xy 190.5 53.34)
+			(xy 205.74 64.77) (xy 196.85 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8a026097-4ed9-4ccf-8e1c-fa291eaf2ade")
+		(uuid "92299d3e-99d9-4e98-8c02-48c2a7937b27")
 	)
 	(wire
 		(pts
@@ -4619,16 +4641,6 @@
 			(type default)
 		)
 		(uuid "987eebfe-377d-417d-b9de-28f438c2b66a")
-	)
-	(wire
-		(pts
-			(xy 187.96 58.42) (xy 190.5 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98d29def-3188-4d49-aff3-1b86ab0f6f81")
 	)
 	(wire
 		(pts
@@ -4742,7 +4754,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 129.54) (xy 245.11 129.54)
+			(xy 186.69 129.54) (xy 247.65 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4872,7 +4884,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 68.58) (xy 245.11 129.54)
+			(xy 247.65 53.34) (xy 247.65 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4929,16 +4941,6 @@
 			(type default)
 		)
 		(uuid "c69c6e24-dda5-452a-bc75-553fa0856314")
-	)
-	(wire
-		(pts
-			(xy 187.96 76.2) (xy 251.46 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7a5d432-5f66-45d6-a03e-456a738e3956")
 	)
 	(wire
 		(pts
@@ -5230,8 +5232,8 @@
 		)
 		(uuid "8c780614-0ca1-4a08-bec9-92e57a84047f")
 	)
-	(label "GPIO_L14_C48_M33{slash}AMP_DETECT"
-		(at 209.55 76.2 0)
+	(label "GPIO_L21_C21_M21{slash}AMP_DETECT"
+		(at 209.55 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5310,7 +5312,7 @@
 		)
 		(uuid "c9d21c69-374d-4736-b14a-c10243c7e5d9")
 	)
-	(label "GPIO_L14_C48_M33{slash}AMP_DETECT"
+	(label "GPIO_L21_C21_M21{slash}AMP_DETECT"
 		(at 189.23 121.92 0)
 		(effects
 			(font
@@ -5330,7 +5332,7 @@
 		)
 		(uuid "cf4b86c3-910d-4cd5-aaef-3fa659ea53ca")
 	)
-	(label "GPIO_L48_C35_M36{slash}CON_ANNOUNCE"
+	(label "GPIO_L41_C41_M42{slash}CON_ANNOUNCE"
 		(at 189.23 129.54 0)
 		(effects
 			(font
@@ -5340,8 +5342,8 @@
 		)
 		(uuid "d9dc032f-27de-468f-ae3a-e994604139cc")
 	)
-	(label "GPIO_L48_C35_M36{slash}CON_ANNOUNCE"
-		(at 209.55 68.58 0)
+	(label "GPIO_L41_C41_M42{slash}CON_ANNOUNCE"
+		(at 209.55 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6095,73 +6097,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0d0a77e4-85e0-4169-8c3a-cde5b188485b")
-		(property "Reference" "GPIO_L41_C41_M42"
-			(at 196.85 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "GND"
-			(at 194.31 53.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a874447-17f5-41b1-9f70-69a43d280e6e")
-		)
-		(instances
-			(project ""
-				(path "/40d11306-2494-4bd8-b540-c25b2be9aaac/d8f68aac-e4b3-42cf-adb2-95c1a8c35ecf"
-					(reference "GPIO_L41_C41_M42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 63.5 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6367,7 +6302,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5fcfc4b6-1f0b-498b-a8b2-dbadfe59e73d")
-		(property "Reference" "GPIO_L18_C18_M9"
+		(property "Reference" "#GPIO_L18_C18_M9"
 			(at 153.67 63.5 90)
 			(effects
 				(font
@@ -6419,7 +6354,7 @@
 		(instances
 			(project ""
 				(path "/40d11306-2494-4bd8-b540-c25b2be9aaac/d8f68aac-e4b3-42cf-adb2-95c1a8c35ecf"
-					(reference "GPIO_L18_C18_M9")
+					(reference "#GPIO_L18_C18_M9")
 					(unit 1)
 				)
 			)
@@ -6648,73 +6583,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 73.66 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "64e102c4-858a-4ecc-8a1b-04af46411b35")
-		(property "Reference" "GPIO_L21_C21_M21"
-			(at 196.85 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "GND"
-			(at 194.31 73.6599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c32c2e0-fde2-4355-8edf-11f8ec301811")
-		)
-		(instances
-			(project ""
-				(path "/40d11306-2494-4bd8-b540-c25b2be9aaac/d8f68aac-e4b3-42cf-adb2-95c1a8c35ecf"
-					(reference "GPIO_L21_C21_M21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 52.07 102.87 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6915,73 +6783,6 @@
 			(project "ggroohauga-amplifier"
 				(path "/40d11306-2494-4bd8-b540-c25b2be9aaac/d8f68aac-e4b3-42cf-adb2-95c1a8c35ecf"
 					(reference "S-J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 190.5 58.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6dc1902c-2abe-4e60-a56a-dbf292f21076")
-		(property "Reference" "GPIO_L39_C39_M40"
-			(at 196.85 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "GND"
-			(at 194.31 58.4199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f2d5d55b-8bc5-498a-8108-b7cf97ec6866")
-		)
-		(instances
-			(project ""
-				(path "/40d11306-2494-4bd8-b540-c25b2be9aaac/d8f68aac-e4b3-42cf-adb2-95c1a8c35ecf"
-					(reference "GPIO_L39_C39_M40")
 					(unit 1)
 				)
 			)
@@ -7875,73 +7676,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 71.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bef24649-b916-4836-ac1c-f8868e649e9d")
-		(property "Reference" "GPIO_L47_C47_M35"
-			(at 196.85 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "GND"
-			(at 194.31 71.1199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "242987ee-37f0-4a70-bfd2-e39bd64b0330")
-		)
-		(instances
-			(project ""
-				(path "/40d11306-2494-4bd8-b540-c25b2be9aaac/d8f68aac-e4b3-42cf-adb2-95c1a8c35ecf"
-					(reference "GPIO_L47_C47_M35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 160.02 81.28 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7949,7 +7683,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c37158d0-2dc6-4ece-a4d5-4175adbc0279")
-		(property "Reference" "GPIO_L12_C12_M16"
+		(property "Reference" "#GPIO_L12_C12_M16"
 			(at 153.67 81.28 90)
 			(effects
 				(font
@@ -8001,7 +7735,7 @@
 		(instances
 			(project ""
 				(path "/40d11306-2494-4bd8-b540-c25b2be9aaac/d8f68aac-e4b3-42cf-adb2-95c1a8c35ecf"
-					(reference "GPIO_L12_C12_M16")
+					(reference "#GPIO_L12_C12_M16")
 					(unit 1)
 				)
 			)
@@ -8148,7 +7882,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d984af6d-8455-4235-9987-2874a43f16f4")
-		(property "Reference" "GPIO_L11_C11_M15"
+		(property "Reference" "#GPIO_L11_C11_M15"
 			(at 153.67 78.74 90)
 			(effects
 				(font
@@ -8200,7 +7934,75 @@
 		(instances
 			(project ""
 				(path "/40d11306-2494-4bd8-b540-c25b2be9aaac/d8f68aac-e4b3-42cf-adb2-95c1a8c35ecf"
-					(reference "GPIO_L11_C11_M15")
+					(reference "#GPIO_L11_C11_M15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 205.74 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df81ea41-6bfa-4dd2-80ae-606b95a85bf0")
+		(property "Reference" "#GPIO_L14_C48_M33"
+			(at 209.55 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5680cc5-6f65-4694-965d-94be5427fd4c")
+		)
+		(instances
+			(project ""
+				(path "/40d11306-2494-4bd8-b540-c25b2be9aaac/d8f68aac-e4b3-42cf-adb2-95c1a8c35ecf"
+					(reference "#GPIO_L14_C48_M33")
 					(unit 1)
 				)
 			)
