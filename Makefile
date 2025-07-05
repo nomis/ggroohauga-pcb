@@ -23,6 +23,8 @@ render/ggroohauga-shared-sch.svg: build/ggroohauga-bridge-Common.svg Makefile
 		-e 's:<title>[^<]*</title>::' \
 		< $< > $@
 
+build/ggroohauga-bridge-Common.svg: ggroohauga-shared.kicad_sch
+
 render/%-sch.svg: build/%-schematic.svg Makefile
 	sed \
 		-e 's:<title>[^<]*</title>::' \

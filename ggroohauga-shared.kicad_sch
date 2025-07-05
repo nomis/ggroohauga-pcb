@@ -6246,7 +6246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3.3V"
+		(property "Value" "3.3V (ESP32)"
 			(at 154.94 33.02 0)
 			(effects
 				(font
@@ -7205,7 +7205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3.3V"
+		(property "Value" "3.3V (Amplifier)"
 			(at 93.98 106.68 0)
 			(effects
 				(font
