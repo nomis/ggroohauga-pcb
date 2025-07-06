@@ -1,1 +1,533 @@
-shared/ggroohauga.kicad_sch
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "40d11306-2494-4bd8-b540-c25b2be9aaac")
+	(paper "User" 50.8 25.4)
+	(lib_symbols
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "001"
+		(exclude_from_sim no)
+		(at 41.91 5.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "29ef153e-eb19-419d-95cc-3936fe00e840")
+	)
+	(junction
+		(at 41.91 10.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e866bd28-8cc9-4083-bb5b-73b67460edd4")
+	)
+	(wire
+		(pts
+			(xy 46.99 7.62) (xy 46.99 12.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12018162-20e6-41ed-b81d-c7a3e5eb497e")
+	)
+	(wire
+		(pts
+			(xy 41.91 7.62) (xy 41.91 10.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18fb5318-f1d3-4504-98b3-ff5cf69252b9")
+	)
+	(wire
+		(pts
+			(xy 41.91 10.16) (xy 41.91 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35287655-5f47-4d9e-b3d8-39b336be2394")
+	)
+	(wire
+		(pts
+			(xy 34.29 10.16) (xy 41.91 10.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41f554fc-a243-4de0-91c8-06938945bdad")
+	)
+	(wire
+		(pts
+			(xy 34.29 7.62) (xy 41.91 7.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e778b85-e1f3-443b-8d45-339813e5f01d")
+	)
+	(wire
+		(pts
+			(xy 34.29 12.7) (xy 46.99 12.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a95802a-1a4a-4963-8cfd-198b92f062ec")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 41.91 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ff1d249-ad19-4c46-9fe0-674fd85e7796")
+		(property "Reference" "#PWR011"
+			(at 41.91 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.91 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 41.91 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50898e3b-cea9-408b-8391-74f155fc6bc5")
+		)
+		(instances
+			(project ""
+				(path "/40d11306-2494-4bd8-b540-c25b2be9aaac"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 46.99 7.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cf29d31-86b1-4a1c-9443-dab07b6a4220")
+		(property "Reference" "#PWR09"
+			(at 46.99 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 46.99 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 46.99 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0e1f500-fa43-4b82-8c1a-e8a365c4c111")
+		)
+		(instances
+			(project ""
+				(path "/40d11306-2494-4bd8-b540-c25b2be9aaac"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 1.27 5.08)
+		(size 33.02 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d8f68aac-e4b3-42cf-adb2-95c1a8c35ecf")
+		(property "Sheetname" "Common"
+			(at 1.27 4.3684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ggroohauga-shared.kicad_sch"
+			(at 1.27 17.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "GPIO_L7_C7_M5{slash}BOARD_ID_2" passive
+			(at 34.29 7.62 0)
+			(uuid "45f8ee23-1326-4216-868c-6ce9dc5b38c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_L15_C15_M6{slash}BOARD_ID_1" passive
+			(at 34.29 10.16 0)
+			(uuid "1862b0af-148f-4e93-9fb6-b6c2aa249dbd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_L16_C16_M7{slash}BOARD_ID_0" passive
+			(at 34.29 12.7 0)
+			(uuid "61ef4aba-fdd2-4060-b2e1-973f42c8dc31")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ggroohauga-bridge"
+				(path "/40d11306-2494-4bd8-b540-c25b2be9aaac"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "blank.kicad_wks")
+			(type worksheet)
+			(data |KLUv/SDtXQQA8scaG4C3DoCGkTkm9L7EPoSChJHUB7MwDOuQkLGoDoghtvR/D5h+5GB3miQfDpf3
+				hVWYoc0l5CM3K1lhRtO0CZ6P2F/nIMbwO10TqKe8n+M+hVHJ+6Gv3GMdxAKqCihckWTz9D2sg2bS
+				vAgJnKwLIBAigXx4lNqNQ8JeqiVgUcUP8WDOJZ24xgeCAg==|
+			)
+			(checksum "00BCE598336E5951A5D0C187D2E96FE2")
+		)
+	)
+)
