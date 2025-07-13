@@ -5461,7 +5461,7 @@
 		)
 	)
 	(global_label "AUDIO_HEADPHONES_R"
-		(shape input)
+		(shape output)
 		(at 88.9 181.61 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5527,7 +5527,7 @@
 		)
 	)
 	(global_label "AUDIO_HEADPHONES_L"
-		(shape input)
+		(shape output)
 		(at 88.9 184.15 0)
 		(fields_autoplaced yes)
 		(effects
