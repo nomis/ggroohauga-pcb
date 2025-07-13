@@ -1,7 +1,7 @@
 (footprint "AMPHENOL_L77HDE15SD1CH4R"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -11.825 -7.385 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "67da06cf-f4d0-43fa-b3ba-71c135735d18")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -99,7 +87,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "69a70e75-3d80-472e-9aca-afaa7bef148b")
 	)
@@ -290,7 +278,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "f3508a1a-6ba3-4b1f-9478-06a6d498546d")
 	)
@@ -457,5 +445,17 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
 		(uuid "3ebf9061-f9bc-4e7e-908c-a01a27e96c79")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/vendor/amphenol/L77HDE15SD1CH4R.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
 	)
 )
