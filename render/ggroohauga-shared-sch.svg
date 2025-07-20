@@ -22844,8 +22844,8 @@ stroke:#0F0F0F; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="39.3700" y="119.0307"
 textLength="11.7540" font-size="1.6933" lengthAdjust="spacingAndGlyphs"
-text-anchor="start" opacity="0" stroke-opacity="0">AMP_DETECT</text>
-<g class="stroked-text"><desc>AMP_DETECT</desc>
+text-anchor="start" opacity="0" stroke-opacity="0">~{AMP_DETECT}</text>
+<g class="stroked-text"><desc>~{AMP_DETECT}</desc>
 <path d="M39.7121 118.5044
 L40.3168 118.5044
 " />
@@ -23017,14 +23017,17 @@ L50.9000 117.5972
 <path d="M50.5372 118.8672
 L50.5372 117.5972
 " />
+<path d="M39.5972 117.2447
+L50.8940 117.2447
+" />
 </g></g>
 <g style="fill:none; 
 stroke:#0F0F0F; stroke-width:0.1524; stroke-opacity:1; 
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="149.8600" y="129.1907"
 textLength="15.2619" font-size="1.6933" lengthAdjust="spacingAndGlyphs"
-text-anchor="start" opacity="0" stroke-opacity="0">CON_ANNOUNCE</text>
-<g class="stroked-text"><desc>CON_ANNOUNCE</desc>
+text-anchor="start" opacity="0" stroke-opacity="0">~{CON_ANNOUNCE}</text>
+<g class="stroked-text"><desc>~{CON_ANNOUNCE}</desc>
 <path d="M150.9882 128.9063
 L150.9278 128.9668
 " />
@@ -23297,6 +23300,9 @@ L164.1722 127.7572
 " />
 <path d="M164.1722 127.7572
 L164.7770 127.7572
+" />
+<path d="M150.0872 127.4047
+L164.8919 127.4047
 " />
 </g></g>
 <g style="fill:none; 
@@ -24342,8 +24348,8 @@ stroke:#0F0F0F; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="72.3900" y="131.7307"
 textLength="15.2619" font-size="1.6933" lengthAdjust="spacingAndGlyphs"
-text-anchor="start" opacity="0" stroke-opacity="0">CON_ANNOUNCE</text>
-<g class="stroked-text"><desc>CON_ANNOUNCE</desc>
+text-anchor="start" opacity="0" stroke-opacity="0">~{CON_ANNOUNCE}</text>
+<g class="stroked-text"><desc>~{CON_ANNOUNCE}</desc>
 <path d="M73.5182 131.4463
 L73.4578 131.5068
 " />
@@ -24617,6 +24623,9 @@ L86.7022 130.2972
 <path d="M86.7022 130.2972
 L87.3070 130.2972
 " />
+<path d="M72.6172 129.9447
+L87.4219 129.9447
+" />
 </g></g>
 <g style="fill:none; 
 stroke:#0F0F0F; stroke-width:0.1524; stroke-opacity:1; 
@@ -24835,8 +24844,8 @@ stroke:#0F0F0F; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="209.5500" y="73.3107"
 textLength="31.4691" font-size="1.6933" lengthAdjust="spacingAndGlyphs"
-text-anchor="start" opacity="0" stroke-opacity="0">GPIO_L21_C21_M21/AMP_DETECT</text>
-<g class="stroked-text"><desc>GPIO_L21_C21_M21/AMP_DETECT</desc>
+text-anchor="start" opacity="0" stroke-opacity="0">~{GPIO_L21_C21_M21/AMP_DETECT}</text>
+<g class="stroked-text"><desc>~{GPIO_L21_C21_M21/AMP_DETECT}</desc>
 <path d="M210.6178 71.9377
 L210.4968 71.8772
 " />
@@ -25346,6 +25355,9 @@ L240.7951 71.8772
 " />
 <path d="M240.4323 73.1472
 L240.4323 71.8772
+" />
+<path d="M209.7772 71.5247
+L240.7891 71.5247
 " />
 </g></g>
 <g style="fill:none; 
@@ -26728,8 +26740,8 @@ stroke:#0F0F0F; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="209.5500" y="52.9907"
 textLength="34.9770" font-size="1.6933" lengthAdjust="spacingAndGlyphs"
-text-anchor="start" opacity="0" stroke-opacity="0">GPIO_L41_C41_M42/CON_ANNOUNCE</text>
-<g class="stroked-text"><desc>GPIO_L41_C41_M42/CON_ANNOUNCE</desc>
+text-anchor="start" opacity="0" stroke-opacity="0">~{GPIO_L41_C41_M42/CON_ANNOUNCE}</text>
+<g class="stroked-text"><desc>~{GPIO_L41_C41_M42/CON_ANNOUNCE}</desc>
 <path d="M210.6178 51.6177
 L210.4968 51.5572
 " />
@@ -27294,14 +27306,17 @@ L243.5773 51.5572
 <path d="M243.5773 51.5572
 L244.1821 51.5572
 " />
+<path d="M209.7772 51.2047
+L244.2970 51.2047
+" />
 </g></g>
 <g style="fill:none; 
 stroke:#0F0F0F; stroke-width:0.1524; stroke-opacity:1; 
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="189.2300" y="121.5707"
 textLength="31.4691" font-size="1.6933" lengthAdjust="spacingAndGlyphs"
-text-anchor="start" opacity="0" stroke-opacity="0">GPIO_L21_C21_M21/AMP_DETECT</text>
-<g class="stroked-text"><desc>GPIO_L21_C21_M21/AMP_DETECT</desc>
+text-anchor="start" opacity="0" stroke-opacity="0">~{GPIO_L21_C21_M21/AMP_DETECT}</text>
+<g class="stroked-text"><desc>~{GPIO_L21_C21_M21/AMP_DETECT}</desc>
 <path d="M190.2978 120.1977
 L190.1768 120.1372
 " />
@@ -27812,14 +27827,17 @@ L220.4751 120.1372
 <path d="M220.1123 121.4072
 L220.1123 120.1372
 " />
+<path d="M189.4572 119.7847
+L220.4691 119.7847
+" />
 </g></g>
 <g style="fill:none; 
 stroke:#0F0F0F; stroke-width:0.1524; stroke-opacity:1; 
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="19.0500" y="52.9907"
 textLength="34.8560" font-size="1.6933" lengthAdjust="spacingAndGlyphs"
-text-anchor="start" opacity="0" stroke-opacity="0">GPIO_L13_C47_M26/AMP_ANNOUNCE</text>
-<g class="stroked-text"><desc>GPIO_L13_C47_M26/AMP_ANNOUNCE</desc>
+text-anchor="start" opacity="0" stroke-opacity="0">~{GPIO_L13_C47_M26/AMP_ANNOUNCE}</text>
+<g class="stroked-text"><desc>~{GPIO_L13_C47_M26/AMP_ANNOUNCE}</desc>
 <path d="M20.1178 51.6177
 L19.9968 51.5572
 " />
@@ -28407,6 +28425,9 @@ L52.9563 51.5572
 " />
 <path d="M52.9563 51.5572
 L53.5611 51.5572
+" />
+<path d="M19.2772 51.2047
+L53.6760 51.2047
 " />
 </g></g>
 <g style="fill:none; 
@@ -29351,8 +29372,8 @@ stroke:#0F0F0F; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="72.3900" y="40.2907"
 textLength="30.3806" font-size="1.6933" lengthAdjust="spacingAndGlyphs"
-text-anchor="start" opacity="0" stroke-opacity="0">GPIO_L17_C17_M8/CON_DETECT</text>
-<g class="stroked-text"><desc>GPIO_L17_C17_M8/CON_DETECT</desc>
+text-anchor="start" opacity="0" stroke-opacity="0">~{GPIO_L17_C17_M8/CON_DETECT}</text>
+<g class="stroked-text"><desc>~{GPIO_L17_C17_M8/CON_DETECT}</desc>
 <path d="M73.4578 38.9177
 L73.3368 38.8572
 " />
@@ -29914,14 +29935,17 @@ L102.5466 38.8572
 <path d="M102.1838 40.1272
 L102.1838 38.8572
 " />
+<path d="M72.6172 38.5047
+L102.5406 38.5047
+" />
 </g></g>
 <g style="fill:none; 
 stroke:#0F0F0F; stroke-width:0.1524; stroke-opacity:1; 
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="209.5500" y="55.5307"
 textLength="35.8840" font-size="1.6933" lengthAdjust="spacingAndGlyphs"
-text-anchor="start" opacity="0" stroke-opacity="0">GPIO_L40_C40_M41/CON_POWER_OUT</text>
-<g class="stroked-text"><desc>GPIO_L40_C40_M41/CON_POWER_OUT</desc>
+text-anchor="start" opacity="0" stroke-opacity="0">~{GPIO_L40_C40_M41/CON_POWER_OUT}</text>
+<g class="stroked-text"><desc>~{GPIO_L40_C40_M41/CON_POWER_OUT}</desc>
 <path d="M210.6178 54.1577
 L210.4968 54.0972
 " />
@@ -30612,14 +30636,17 @@ L245.2100 54.0972
 <path d="M244.8472 55.3672
 L244.8472 54.0972
 " />
+<path d="M209.7772 53.7447
+L245.2040 53.7447
+" />
 </g></g>
 <g style="fill:none; 
 stroke:#0F0F0F; stroke-width:0.1524; stroke-opacity:1; 
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="209.5500" y="78.3907"
 textLength="34.8560" font-size="1.6933" lengthAdjust="spacingAndGlyphs"
-text-anchor="start" opacity="0" stroke-opacity="0">GPIO_L13_C47_M26/AMP_ANNOUNCE</text>
-<g class="stroked-text"><desc>GPIO_L13_C47_M26/AMP_ANNOUNCE</desc>
+text-anchor="start" opacity="0" stroke-opacity="0">~{GPIO_L13_C47_M26/AMP_ANNOUNCE}</text>
+<g class="stroked-text"><desc>~{GPIO_L13_C47_M26/AMP_ANNOUNCE}</desc>
 <path d="M210.6178 77.0177
 L210.4968 76.9572
 " />
@@ -31208,14 +31235,17 @@ L243.4563 76.9572
 <path d="M243.4563 76.9572
 L244.0611 76.9572
 " />
+<path d="M209.7772 76.6047
+L244.1760 76.6047
+" />
 </g></g>
 <g style="fill:none; 
 stroke:#0F0F0F; stroke-width:0.1524; stroke-opacity:1; 
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="189.2300" y="129.1907"
 textLength="34.9770" font-size="1.6933" lengthAdjust="spacingAndGlyphs"
-text-anchor="start" opacity="0" stroke-opacity="0">GPIO_L41_C41_M42/CON_ANNOUNCE</text>
-<g class="stroked-text"><desc>GPIO_L41_C41_M42/CON_ANNOUNCE</desc>
+text-anchor="start" opacity="0" stroke-opacity="0">~{GPIO_L41_C41_M42/CON_ANNOUNCE}</text>
+<g class="stroked-text"><desc>~{GPIO_L41_C41_M42/CON_ANNOUNCE}</desc>
 <path d="M190.2978 127.8177
 L190.1768 127.7572
 " />
@@ -31780,14 +31810,17 @@ L223.2573 127.7572
 <path d="M223.2573 127.7572
 L223.8621 127.7572
 " />
+<path d="M189.4572 127.4047
+L223.9770 127.4047
+" />
 </g></g>
 <g style="fill:none; 
 stroke:#0F0F0F; stroke-width:0.1524; stroke-opacity:1; 
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="111.7600" y="60.6107"
 textLength="30.3806" font-size="1.6933" lengthAdjust="spacingAndGlyphs"
-text-anchor="start" opacity="0" stroke-opacity="0">GPIO_L17_C17_M8/CON_DETECT</text>
-<g class="stroked-text"><desc>GPIO_L17_C17_M8/CON_DETECT</desc>
+text-anchor="start" opacity="0" stroke-opacity="0">~{GPIO_L17_C17_M8/CON_DETECT}</text>
+<g class="stroked-text"><desc>~{GPIO_L17_C17_M8/CON_DETECT}</desc>
 <path d="M112.8278 59.2377
 L112.7068 59.1772
 " />
@@ -32348,6 +32381,9 @@ L141.9166 59.1772
 " />
 <path d="M141.5538 60.4472
 L141.5538 59.1772
+" />
+<path d="M111.9872 58.8247
+L141.9106 58.8247
 " />
 </g></g>
 <g style="fill:none; 
@@ -33496,8 +33532,8 @@ stroke:#0F0F0F; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="149.8600" y="121.5707"
 textLength="11.7540" font-size="1.6933" lengthAdjust="spacingAndGlyphs"
-text-anchor="start" opacity="0" stroke-opacity="0">AMP_DETECT</text>
-<g class="stroked-text"><desc>AMP_DETECT</desc>
+text-anchor="start" opacity="0" stroke-opacity="0">~{AMP_DETECT}</text>
+<g class="stroked-text"><desc>~{AMP_DETECT}</desc>
 <path d="M150.2021 121.0444
 L150.8068 121.0444
 " />
@@ -33668,6 +33704,9 @@ L161.3900 120.1372
 " />
 <path d="M161.0272 121.4072
 L161.0272 120.1372
+" />
+<path d="M150.0872 119.7847
+L161.3840 119.7847
 " />
 </g></g>
 <g style="fill:none; 

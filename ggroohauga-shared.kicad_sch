@@ -5122,7 +5122,7 @@
 		)
 		(uuid "191f4ca8-4243-47c3-9419-a6ec43d8c531")
 	)
-	(label "GPIO_L17_C17_M8{slash}CON_DETECT"
+	(label "~{GPIO_L17_C17_M8{slash}CON_DETECT}"
 		(at 72.39 40.64 0)
 		(effects
 			(font
@@ -5132,7 +5132,7 @@
 		)
 		(uuid "26bde116-8d9b-449f-a176-4ac30549c1b7")
 	)
-	(label "AMP_DETECT"
+	(label "~{AMP_DETECT}"
 		(at 39.37 119.38 0)
 		(effects
 			(font
@@ -5152,7 +5152,7 @@
 		)
 		(uuid "399640ae-5182-49ae-b603-b11736dff94d")
 	)
-	(label "CON_ANNOUNCE"
+	(label "~{CON_ANNOUNCE}"
 		(at 72.39 132.08 0)
 		(effects
 			(font
@@ -5162,7 +5162,7 @@
 		)
 		(uuid "3df452f3-8cc3-42bb-b49b-51d6dace4610")
 	)
-	(label "GPIO_L13_C47_M26{slash}AMP_ANNOUNCE"
+	(label "~{GPIO_L13_C47_M26{slash}AMP_ANNOUNCE}"
 		(at 19.05 53.34 0)
 		(effects
 			(font
@@ -5192,7 +5192,7 @@
 		)
 		(uuid "68c5ef84-3d86-4714-bef7-dc0f1650cca0")
 	)
-	(label "AMP_DETECT"
+	(label "~{AMP_DETECT}"
 		(at 149.86 121.92 0)
 		(effects
 			(font
@@ -5202,7 +5202,7 @@
 		)
 		(uuid "7bfd3af1-8e11-4a3b-bab7-1e4f57c4634f")
 	)
-	(label "CON_ANNOUNCE"
+	(label "~{CON_ANNOUNCE}"
 		(at 149.86 129.54 0)
 		(effects
 			(font
@@ -5212,7 +5212,7 @@
 		)
 		(uuid "8626084f-f8ea-41e4-99ce-9bbc687d3edc")
 	)
-	(label "GPIO_L13_C47_M26{slash}AMP_ANNOUNCE"
+	(label "~{GPIO_L13_C47_M26{slash}AMP_ANNOUNCE}"
 		(at 209.55 78.74 0)
 		(effects
 			(font
@@ -5232,7 +5232,7 @@
 		)
 		(uuid "8c780614-0ca1-4a08-bec9-92e57a84047f")
 	)
-	(label "GPIO_L21_C21_M21{slash}AMP_DETECT"
+	(label "~{GPIO_L21_C21_M21{slash}AMP_DETECT}"
 		(at 209.55 73.66 0)
 		(effects
 			(font
@@ -5252,7 +5252,7 @@
 		)
 		(uuid "981c4e2d-c0e4-4e22-b924-bd6ff43461ef")
 	)
-	(label "GPIO_L17_C17_M8{slash}CON_DETECT"
+	(label "~{GPIO_L17_C17_M8{slash}CON_DETECT}"
 		(at 111.76 60.96 0)
 		(effects
 			(font
@@ -5312,7 +5312,7 @@
 		)
 		(uuid "c9d21c69-374d-4736-b14a-c10243c7e5d9")
 	)
-	(label "GPIO_L21_C21_M21{slash}AMP_DETECT"
+	(label "~{GPIO_L21_C21_M21{slash}AMP_DETECT}"
 		(at 189.23 121.92 0)
 		(effects
 			(font
@@ -5322,7 +5322,7 @@
 		)
 		(uuid "cb0168aa-41fa-4f89-b798-4e5a6e386b4d")
 	)
-	(label "GPIO_L40_C40_M41{slash}CON_POWER_OUT"
+	(label "~{GPIO_L40_C40_M41{slash}CON_POWER_OUT}"
 		(at 209.55 55.88 0)
 		(effects
 			(font
@@ -5332,7 +5332,7 @@
 		)
 		(uuid "cf4b86c3-910d-4cd5-aaef-3fa659ea53ca")
 	)
-	(label "GPIO_L41_C41_M42{slash}CON_ANNOUNCE"
+	(label "~{GPIO_L41_C41_M42{slash}CON_ANNOUNCE}"
 		(at 189.23 129.54 0)
 		(effects
 			(font
@@ -5342,7 +5342,7 @@
 		)
 		(uuid "d9dc032f-27de-468f-ae3a-e994604139cc")
 	)
-	(label "GPIO_L41_C41_M42{slash}CON_ANNOUNCE"
+	(label "~{GPIO_L41_C41_M42{slash}CON_ANNOUNCE}"
 		(at 209.55 53.34 0)
 		(effects
 			(font
