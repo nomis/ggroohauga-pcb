@@ -133,8 +133,18 @@ Supported ESP32-S3 Boards
 Amplifier Signals GPIOs
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Amplifier Power In should only be pulled down, to avoid back-powering the
+"Amplifier Power In" should only be pulled down, to avoid back-powering the
 amplifier microcontroller when mains power is off.
+
+When "Amplifier Power In" is active, the amplifier has mains power. Enable
+"Console Announce" to turn the amplifier on, and disable it turn the amplifier
+off. Don't leave it on constantly because it will heat up and waste power.
+Automatic standby can be implemented by
+`reading the idle time <https://github.com/nomis/logitech-z906/blob/main/protocol.rst#read-idle-time>`_.
+
+When "Amplifier Detect" is active, the amplifier is ready to communicate over
+the 3.3V UART. The labels "Amplifier RX" and "Amplifier TX" are from the
+perspective of the amplifier.
 
 +------------------------+-------+---------+-----------+-----------+----------+----------+
 | Name                   |  Pin  |  LOLIN  |  DevKitC  |  DevKitM  |  Socket  |  Active  |
@@ -143,7 +153,7 @@ amplifier microcontroller when mains power is off.
 +------------------------+-------+---------+-----------+-----------+----------+----------+
 | Console Announce       |   15  |   41    |    41     |    42     |   R  7   |   Low    |
 +------------------------+-------+---------+-----------+-----------+----------+----------+
-| Amplifier Detect       |    8  |   21    |    21     |    21     |   R 15   |          |
+| Amplifier Detect       |    8  |   21    |    21     |    21     |   R 15   |   Low    |
 +------------------------+-------+---------+-----------+-----------+----------+----------+
 | Amplifier RX           |   13  |   10    |    10     |    14     |   L 16   |          |
 +------------------------+-------+---------+-----------+-----------+----------+----------+
@@ -154,12 +164,19 @@ amplifier microcontroller when mains power is off.
 | GND                    |    6  |         |           |           |   R  1   |          |
 +------------------------+-------+---------+-----------+-----------+----------+----------+
 
-
 Console Signals GPIOs
 ~~~~~~~~~~~~~~~~~~~~~
 
-Prepare all other GPIOs and UARTs before applying console power,
-otherwise it will report a communication error.
+Prepare all other GPIOs and UARTs before applying console power, otherwise it
+will report a communication error.
+
+Enable "Console Power out" to power the console on, and disable it to power off
+the console. Without a `firmware modification to the console <https://github.com/nomis/logitech-z906/blob/main/firmware.rst#automatic-power-on>`_,
+user intervention will be required to turn the console on after it's powered.
+
+When "Amplifier Announce" is active, the amplifier indicates that it is ready to
+communicate over the 3.3V UART. The labels "Console RX" and "Console TX" are
+from the perspective of the console.
 
 +------------------------+-------+---------+-----------+-----------+----------+----------+
 | Name                   |  Pin  |  LOLIN  |  DevKitC  |  DevKitM  |  Socket  |  Active  |
@@ -170,7 +187,7 @@ otherwise it will report a communication error.
 +------------------------+-------+---------+-----------+-----------+----------+----------+
 | Console TX             |   13  |    6    |     6     |     4     |   L  6   |          |
 +------------------------+-------+---------+-----------+-----------+----------+----------+
-| Amplifier Announce     |    8  |   13    |    47     |    26     |   R 17   |          |
+| Amplifier Announce     |    8  |   13    |    47     |    26     |   R 17   |   Low    |
 +------------------------+-------+---------+-----------+-----------+----------+----------+
 | Console Detect         |   15  |   17    |    17     |     8     |   L 10   |   Low    |
 +------------------------+-------+---------+-----------+-----------+----------+----------+
