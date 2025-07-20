@@ -58,6 +58,8 @@ Amplifier PCB
 Connect to an amplifier on its own to control the amplifier and access the Aux
 Input and Headphones audio through `3.5mm TRS sockets <https://en.wikipedia.org/wiki/Phone_connector_(audio)>`_.
 
+Dimensions: 95mm W × 31mm H
+
 .. image:: render/ggroohauga-amplifier-pcb.svg
    :alt: Front and back of amplifier PCB
 
@@ -70,6 +72,8 @@ Console PCB
 Connect to a console on its own to control the console and access the Aux Input
 and Headphones audio through `3.5mm TRS sockets <https://en.wikipedia.org/wiki/Phone_connector_(audio)>`_.
 
+Dimensions: 95mm W × 31mm H
+
 .. image:: render/ggroohauga-console-pcb.svg
    :alt: Front and back of console PCB
 
@@ -81,6 +85,8 @@ Bridge PCB
 
 Connect between an amplifier and a console to control both devices
 independently.
+
+Dimensions: 98.5mm W × 31mm H
 
 .. image:: render/ggroohauga-bridge-pcb.svg
    :alt: Front and back of bridge PCB
