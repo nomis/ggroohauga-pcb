@@ -122,7 +122,7 @@ Components
 +-------+--------------------------------------------------------+--------------------+
 | C-J1  | Amphenol L717HDE15PD1CH4F DE-15 plug                   | console, bridge    |
 +-------+--------------------------------------------------------+--------------------+
-| C-Q1  | Diodes DMP2004K P-Channel MOSFET, SOT-23               | console, bridge    |
+| C-Q1  | Diodes DMP2004K P-Channel MOSFET, SOT-23-3             | console, bridge    |
 +-------+--------------------------------------------------------+--------------------+
 | S-J1  | Same Sky SJ1-3523N 3.5mm Audio Jack                    | amplifier, console |
 +-------+--------------------------------------------------------+--------------------+
@@ -132,7 +132,7 @@ Components
 Supported ESP32-S3 Boards
 -------------------------
 
-* LOLIN WEMOS S3
+* WEMOS LOLIN S3
 * Espressif ESP32-S3-DevKitC-1
 * Espressif ESP32-S3-DevKitM-1
 
