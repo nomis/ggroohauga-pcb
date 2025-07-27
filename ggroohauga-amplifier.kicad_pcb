@@ -8264,7 +8264,7 @@
 			(justify left top mirror)
 		)
 	)
-	(gr_text "https://github.com/nomis/ggroohauga-pcb (amplifier)"
+	(gr_text "https://pcb.nom.is/ggroohauga (amplifier)"
 		(at 131.064 73.533 0)
 		(layer "B.SilkS")
 		(uuid "968683a7-759a-4d41-ab8d-50b137ff190a")

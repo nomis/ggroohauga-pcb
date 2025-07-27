@@ -7884,7 +7884,7 @@
 			(justify left top mirror)
 		)
 	)
-	(gr_text "https://github.com/nomis/ggroohauga-pcb (bridge)"
+	(gr_text "https://pcb.nom.is/ggroohauga (bridge)"
 		(at 131.064 73.533 0)
 		(layer "B.SilkS")
 		(uuid "e40eca15-9df6-41de-8a27-160d79a0dc29")

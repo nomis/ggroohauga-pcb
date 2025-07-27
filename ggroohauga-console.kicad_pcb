@@ -7012,7 +7012,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "https://github.com/nomis/ggroohauga-pcb (console)"
+	(gr_text "https://pcb.nom.is/ggroohauga (console)"
 		(at 131.064 73.533 0)
 		(layer "B.SilkS")
 		(uuid "6f5e94a0-e1f6-414b-86b4-ebd1496244b8")
